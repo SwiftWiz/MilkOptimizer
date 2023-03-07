@@ -1,0 +1,74 @@
+.school-parent {
+	display:flex;
+
+}
+.school-child {
+	flex: 1;
+	margin: 10px;
+	text-align: center;
+	background: black;
+}
+
+.school-child:first-child {
+  margin-right: 20px;
+}
+
+.gear-row{
+	display: flex;
+	flex: 1;
+	margin: 10px;
+	text-align: center;
+}
+.gear-child {
+	flex: 1;
+	margin: 10px;
+	text-align: center;
+	background: black;
+}
+
+.gear-child:first-child {
+  margin-right: 20px;
+}
+
+.header-parent {
+	display:flex;
+	align-items: center
+
+}
+
+.header-text{
+	flex:20;
+	margin: 10px;
+	text-align: center;
+	background: black;
+}
+
+.header-child {
+	flex: 1;
+	width: 25%;
+	margin: 10px;
+	text-align: center;
+	background: black;
+}
+
+
+
+.header-child:first-child {
+  margin-right: 20px;
+}
+
+.heading{
+	text-align:center;
+	line-height: 0.8em;
+	background: black;
+}
+
+.damage {
+	background: black;
+}
+
+body{
+	background: black;
+	color:white;
+	font-family:arial;
+}

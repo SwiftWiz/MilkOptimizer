@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<title>Milk Optimizer</title>
+		<link rel="icon" href="favicon.ico	">
+		
+		<link rel="stylesheet" href="main.css">
+		
+	</head>
+	
+	<body onload="onLoad()">
+		<script src="main.js"></script>
+		
+		<div class="header-parent">
+			<img src="spike_tnsp.png" class="header-child"/>
+			
+			<div class="header-text">
+				<h1 class="heading">Milk Optimizer V1.0.0</h1>
+				<h4 class="heading">Created by Malvin SwiftCatcher and Blaze FirePants</h4>
+			</div>
+			
+			<img src="spike_tnsp.png" class="header-child"/>
+			
+		</div>
+		
+		<div class ="school-parent">
+			<div class="school-child">
+				<label for="user-main-school">Select your wizard's primary school:</label>
+				<select name="user-main-school" id="user-main-school" onchange="changeMainSchool()">
+					<option value="fire">Fire</option>
+					<option value="ice">Ice</option>
+					<option value="storm">Storm</option>
+					<option value="myth">Myth</option>
+					<option value="life">Life</option>
+					<option value="death">Death</option>
+					<option value="balance">Balance</option>
+				</select>
+			</div>
+			
+			<div class="school-child">
+				<label for="user-off-school">Select your wizard's secondary school:</label>
+				<select name="user-off-school" id="user-off-school">
+					<option value="fire">Fire</option>
+					<option value="ice">Ice</option>
+					<option value="storm">Storm</option>
+					<option value="myth">Myth</option>
+					<option value="life">Life</option>
+					<option value="death">Death</option>
+					<option value="balance">Balance</option>
+				</select>
+			</div>
+		</div>
+		
+			<div class="gear-row">
+				<div class="gear-child">
+					<label for="hat">Hat:</label>
+					<select name="hat" id="hat">
+						<option value="fire">Fire</option>
+						<option value="ice">Ice</option>
+						<option value="storm">Storm</option>
+						<option value="myth">Myth</option>
+						<option value="life">Life</option>
+						<option value="death">Death</option>
+						<option value="balance">Balance</option>
+					</select>
+				</div>
+				
+				<div class="gear-child">
+					<label for="robe">Robe:</label>
+					<select name="robe" id="robe">
+						<option value="fire">Fire</option>
+						<option value="ice">Ice</option>
+						<option value="storm">Storm</option>
+						<option value="myth">Myth</option>
+						<option value="life">Life</option>
+						<option value="death">Death</option>
+						<option value="balance">Balance</option>
+					</select>
+				</div>
+				
+				<div class="gear-child">
+					<label for="boots">Boots:</label>
+					<select name="boots" id="boots">
+						<option value="fire">Fire</option>
+						<option value="ice">Ice</option>
+						<option value="storm">Storm</option>
+						<option value="myth">Myth</option>
+						<option value="life">Life</option>
+						<option value="death">Death</option>
+						<option value="balance">Balance</option>
+					</select>
+				</div>
+			</div>
+			<div class="gear-row">
+				<div class="gear-child">
+					<label for="wand">Wand:</label>
+					<select name="wand" id="wand">
+						<option value="fire">Fire</option>
+						<option value="ice">Ice</option>
+						<option value="storm">Storm</option>
+						<option value="myth">Myth</option>
+						<option value="life">Life</option>
+						<option value="death">Death</option>
+						<option value="balance">Balance</option>
+					</select>
+				</div>
+				
+				<div class="gear-child">
+					<label for="athame">Athame:</label>
+					<select name="athame" id="athame">
+						<option value="fire">Fire</option>
+						<option value="ice">Ice</option>
+						<option value="storm">Storm</option>
+						<option value="myth">Myth</option>
+						<option value="life">Life</option>
+						<option value="death">Death</option>
+						<option value="balance">Balance</option>
+					</select>
+				</div>
+				
+				<div class="gear-child">
+					<label for="amulet">Amulet:</label>
+					<select name="amulet" id="amulet">
+						<option value="fire">Fire</option>
+						<option value="ice">Ice</option>
+						<option value="storm">Storm</option>
+						<option value="myth">Myth</option>
+						<option value="life">Life</option>
+						<option value="death">Death</option>
+						<option value="balance">Balance</option>
+					</select>
+				</div>
+			</div>
+			<div class="gear-row">
+				<div class="gear-child">
+					<label for="ring">Ring:</label>
+					<select name="ring" id="ring">
+						<option value="fire">Fire</option>
+						<option value="ice">Ice</option>
+						<option value="storm">Storm</option>
+						<option value="myth">Myth</option>
+						<option value="life">Life</option>
+						<option value="death">Death</option>
+						<option value="balance">Balance</option>
+					</select>
+				</div>
+				
+				<div class="gear-child">
+					<label for="mount">Mount:</label>
+					<select name="mount" id="mount">
+						<option value="fire">Fire</option>
+						<option value="ice">Ice</option>
+						<option value="storm">Storm</option>
+						<option value="myth">Myth</option>
+						<option value="life">Life</option>
+						<option value="death">Death</option>
+						<option value="balance">Balance</option>
+					</select>
+				</div>
+				
+				<div class="gear-child">
+					<label for="deck">Deck:</label>
+					<select name="deck" id="deck">
+						<option value="fire">Fire</option>
+						<option value="ice">Ice</option>
+						<option value="storm">Storm</option>
+						<option value="myth">Myth</option>
+						<option value="life">Life</option>
+						<option value="death">Death</option>
+						<option value="balance">Balance</option>
+					</select>
+				</div>
+			</div>
+			<div class="gear-row">
+				<div class="gear-child">
+					<label for="pet">Pet:</label>
+					<select name="pet" id="pet">
+						<option value="fire">Fire</option>
+						<option value="ice">Ice</option>
+						<option value="storm">Storm</option>
+						<option value="myth">Myth</option>
+						<option value="life">Life</option>
+						<option value="death">Death</option>
+						<option value="balance">Balance</option>
+					</select>
+				</div>
+			</div>
+			
+			<p id="damage" class="damage">
+				
+			</p>
+
+
+
+
+
+
+
+	</body>
+</html>
